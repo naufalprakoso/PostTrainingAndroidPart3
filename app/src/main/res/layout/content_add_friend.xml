@@ -7,7 +7,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	app:layout_behavior="@string/appbar_scrolling_view_behavior"
-	tools:context=".AddFriendActivity"
+	tools:context=".activity.AddFriendActivity"
 	tools:showIn="@layout/activity_add_friend"
 	android:padding="16dp">
 
@@ -27,12 +27,14 @@
 		android:layout_marginTop="16dp"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+
 		android:text="Phone number"/>
 
 	<EditText
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/edt_phone"
+		android:inputType="phone"
 		android:padding="16dp"
 		android:hint="Input your phone..."/>
 
